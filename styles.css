@@ -1834,7 +1834,7 @@ ul {
 @media print {
   @page {
     size: A4;
-    margin: 14mm;
+    margin: 12mm;
   }
 
   :root {
@@ -1853,6 +1853,7 @@ ul {
 
   body {
     min-width: 0;
+    padding-inline: 8mm;
     background: #ffffff;
     color: #111111;
     font-size: 9.5pt;
@@ -1884,7 +1885,7 @@ ul {
   }
 
   .page-shell {
-    width: 100%;
+    width: auto;
   }
 
   .hero {
