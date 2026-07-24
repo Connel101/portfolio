@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Connel's virtual CV: software development, intelligent data systems, automation, and open-source projects."
+    />
+    <meta name="theme-color" content="#081b28" />
+    <meta property="og:title" content="Connel — Software Developer" />
+    <meta
+      property="og:description"
+      content="Reliable software for complex data, intelligent automation, and practical business systems."
+    />
+    <meta property="og:type" content="website" />
+    <title>Connel — Software Developer</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="wordmark" href="#home" aria-label="Connel, back to home">
+          <span class="wordmark-mark" aria-hidden="true">C</span>
+          <span>CONNEL</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          data-menu-toggle
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+        <nav
+          class="primary-navigation"
+          id="primary-navigation"
+          aria-label="Primary navigation"
+          data-navigation
+        >
+          <a href="#home" data-nav-link>Home</a>
+          <a href="#about" data-nav-link>About</a>
+          <a href="#cv" data-nav-link>CV</a>
+          <a href="#projects" data-nav-link>Projects</a>
+          <a href="#skills" data-nav-link>Skills</a>
+          <a href="#education" data-nav-link>Education</a>
+          <a href="#contact" data-nav-link>Contact</a>
+        </nav>
+
+        <button class="print-button" type="button" data-print>
+          <span aria-hidden="true">↗</span>
+          Print CV
+        </button>
+      </div>
+      <div class="reading-progress" aria-hidden="true">
+        <span data-reading-progress></span>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-dark" id="home" aria-labelledby="hero-title">
+        <div class="hero-coordinate coordinate-top" aria-hidden="true">
+          26°12′S / SYSTEMS / 001
+        </div>
+        <div class="hero-coordinate coordinate-side" aria-hidden="true">
+          SCROLL TO INSPECT
+        </div>
+
+        <div class="page-shell hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span>Software developer</span> / Virtual CV</p>
+            <h1 id="hero-title">
+              I build reliable software that turns
+              <em>complex data</em> into practical systems.
+            </h1>
+            <p class="hero-summary">
+              Backend engineering, intelligent automation, search, and data
+              pipelines—designed to solve real operational problems.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">
+                Inspect selected work
+                <span aria-hidden="true">↓</span>
+              </a>
+              <a
+                class="button button-quiet"
+                href="https://github.com/Connel101"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub profile
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-readout reveal" aria-label="Professional overview">
+            <div class="readout-header">
+              <span>Profile readout</span>
+              <span class="status-indicator">Available</span>
+            </div>
+            <dl>
+              <div>
+                <dt>Focus</dt>
+                <dd>Backend &amp; data systems</dd>
+              </div>
+              <div>
+                <dt>Approach</dt>
+                <dd>Practical, scalable, reliable</dd>
+              </div>
+              <div>
+                <dt>Current</dt>
+                <dd>Software development</dd>
+              </div>
+              <div>
+                <dt>Interface</dt>
+                <dd>Web, APIs &amp; automation</dd>
+              </div>
+            </dl>
+            <div class="readout-scale" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-paper section-about" id="about" aria-labelledby="about-title">
+        <div class="page-shell editorial-grid">
+          <div class="section-index reveal" aria-hidden="true">
+            <span>01</span>
+            <p>Profile</p>
+          </div>
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">About me</p>
+            <h2 id="about-title">Engineering useful answers from difficult problems.</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p class="lead">
+              I am a software developer who enjoys turning fragmented data and
+              manual processes into dependable tools people can use.
+            </p>
+            <div class="about-columns">
+              <p>
+                My work spans scalable backend systems, business applications,
+                data acquisition, OCR, enterprise automation, and advanced
+                search. I work mainly with Python, Django, Flask, PostgreSQL,
+                SQL Server, and Elasticsearch.
+              </p>
+              <p>
+                I am particularly interested in the point where software meets
+                a real operational constraint: legacy systems, unstructured
+                documents, complex datasets, or workflows that need to become
+                faster and more reliable.
+              </p>
+            </div>
+          </div>
+          <aside class="about-principle reveal" aria-label="Working principle">
+            <span class="annotation">Working principle / 01</span>
+            <blockquote>
+              “Understand the system, reduce the friction, then build the
+              simplest reliable path through it.”
+            </blockquote>
+          </aside>
+        </div>
+      </section>
+
+      <section class="system-section section-dark" aria-labelledby="system-title">
+        <div class="page-shell">
+          <div class="section-heading section-heading-dark reveal">
+            <p class="eyebrow">Interactive system map</p>
+            <h2 id="system-title">From raw input to a working outcome.</h2>
+            <p>
+              Select a stage to see how my experience, skills, and projects fit
+              into an end-to-end system.
+            </p>
+          </div>
+
+          <div class="system-workbench reveal" data-system-map>
+            <div class="map-stage" aria-label="System stages">
+              <button
+                class="map-node is-active"
+                type="button"
+                data-system-node="acquisition"
+                aria-pressed="true"
+              >
+                <span class="node-index">01</span>
+                <span class="node-label">Data acquisition</span>
+                <span class="node-meta">Collect / digitise</span>
+              </button>
+              <span class="map-connector" aria-hidden="true"></span>
+              <button
+                class="map-node"
+                type="button"
+                data-system-node="intelligence"
+                aria-pressed="false"
+              >
+                <span class="node-index">02</span>
+                <span class="node-label">Processing &amp; AI</span>
+                <span class="node-meta">Extract / understand</span>
+              </button>
+              <span class="map-connector" aria-hidden="true"></span>
+              <button
+                class="map-node"
+                type="button"
+                data-system-node="search"
+                aria-pressed="false"
+              >
+                <span class="node-index">03</span>
+                <span class="node-label">Search &amp; storage</span>
+                <span class="node-meta">Index / retrieve</span>
+              </button>
+              <span class="map-connector" aria-hidden="true"></span>
+              <button
+                class="map-node"
+                type="button"
+                data-system-node="delivery"
+                aria-pressed="false"
+              >
+                <span class="node-index">04</span>
+                <span class="node-label">APIs &amp; delivery</span>
+                <span class="node-meta">Connect / operate</span>
+              </button>
+            </div>
+
+            <div class="system-detail" aria-live="polite">
+              <div>
+                <span class="annotation" data-system-kicker>Stage 01 / Acquisition</span>
+                <h3 data-system-title>Turning difficult sources into usable data</h3>
+              </div>
+              <p data-system-description>
+                Automated collection and digitisation using browser automation,
+                web scraping, OCR, and structured ingestion pipelines.
+              </p>
+              <ul class="detail-tags" data-system-tags aria-label="Related technologies">
+                <li>Playwright</li>
+                <li>BeautifulSoup</li>
+                <li>UiPath</li>
+                <li>OCR</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-paper resume-section" id="cv" aria-labelledby="cv-title">
+        <div class="page-shell">
+          <div class="section-topline reveal">
+            <div class="section-index" aria-hidden="true">
+              <span>02</span>
+              <p>Experience</p>
+            </div>
+            <div class="section-heading">
+              <p class="eyebrow eyebrow-dark">Resume / CV</p>
+              <h2 id="cv-title">Professional experience</h2>
+            </div>
+            <button class="text-action" type="button" data-print>
+              Print this CV <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+
+          <div class="timeline">
+            <article
+              class="timeline-entry reveal"
+              data-related="acquisition intelligence search delivery"
+            >
+              <div class="timeline-marker" aria-hidden="true"><span></span></div>
+              <div class="timeline-date">
+                <span>January 2024</span>
+                <span>Present</span>
+              </div>
+              <div class="timeline-content">
+                <div class="role-heading">
+                  <div>
+                    <p>Automotive Data &amp; Software Company</p>
+                    <h3>Software Developer</h3>
+                  </div>
+                  <span class="role-code">ROLE / 01</span>
+                </div>
+                <ul class="responsibility-list">
+                  <li>
+                    Designed backend systems, APIs, and data pipelines using
+                    Django, PostgreSQL, and Python.
+                  </li>
+                  <li>
+                    Built automated data acquisition and processing systems
+                    with Playwright, BeautifulSoup, and UiPath.
+                  </li>
+                  <li>
+                    Developed Elasticsearch indexing pipelines that synchronise
+                    PostgreSQL data into optimised search indexes.
+                  </li>
+                  <li>
+                    Engineered VIN decoding and visual similarity search
+                    solutions using computer vision and vector search.
+                  </li>
+                  <li>
+                    Integrated modern applications with legacy IBM UniVerse
+                    systems to maintain dependable data exchange.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article
+              class="timeline-entry reveal"
+              data-related="acquisition intelligence delivery"
+            >
+              <div class="timeline-marker" aria-hidden="true"><span></span></div>
+              <div class="timeline-date">
+                <span>March 2024</span>
+                <span>Present</span>
+              </div>
+              <div class="timeline-content">
+                <div class="role-heading">
+                  <div>
+                    <p>Employment Services Company</p>
+                    <h3>Software Developer</h3>
+                  </div>
+                  <span class="role-code">ROLE / 02</span>
+                </div>
+                <ul class="responsibility-list">
+                  <li>
+                    Developed end-to-end applications for recruitment,
+                    assessments, CRM, document management, and operations.
+                  </li>
+                  <li>
+                    Built backend services using Django, Flask, SQL Server, and
+                    Windows Server, integrating Microsoft Graph and Sage 300.
+                  </li>
+                  <li>
+                    Created OCR and AI pipelines that digitised tens of
+                    thousands of documents and converted them into structured,
+                    searchable information.
+                  </li>
+                  <li>
+                    Applied AI-assisted classification and extraction to reduce
+                    manual work across connected business systems.
+                  </li>
+                  <li>
+                    Supported Apple device deployment, domains, DNS, and
+                    organisational IT infrastructure.
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section section-blueprint" id="projects" aria-labelledby="projects-title">
+        <div class="page-shell">
+          <div class="section-topline reveal">
+            <div class="section-index section-index-light" aria-hidden="true">
+              <span>03</span>
+              <p>Selected work</p>
+            </div>
+            <div class="section-heading section-heading-dark">
+              <p class="eyebrow">Open-source projects</p>
+              <h2 id="projects-title">Built from real engineering questions.</h2>
+            </div>
+          </div>
+
+          <div class="project-list">
+            <article
+              class="project-card reveal"
+              data-related="intelligence search delivery"
+            >
+              <div class="project-number" aria-hidden="true">01</div>
+              <div class="project-main">
+                <div class="project-status">
+                  <span>Open source</span>
+                  <span>Go-powered</span>
+                </div>
+                <h3>VisionBench</h3>
+                <p>
+                  A platform for testing, comparing, and deploying visual
+                  similarity search pipelines through a web interface and REST
+                  API.
+                </p>
+                <ul class="project-tags" aria-label="VisionBench technologies">
+                  <li>Go</li>
+                  <li>Computer vision</li>
+                  <li>Vector search</li>
+                  <li>REST API</li>
+                  <li>Docker</li>
+                </ul>
+                <a
+                  class="project-repo-link"
+                  href="https://github.com/Connel101/vision-bench"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+              <details class="project-details">
+                <summary>
+                  <span>View case study</span>
+                  <span aria-hidden="true">+</span>
+                </summary>
+                <div class="case-study">
+                  <div>
+                    <h4>The question</h4>
+                    <p>
+                      How can engineers compare embedding models, preprocessing
+                      pipelines, similarity metrics, and vector-search
+                      strategies without rebuilding the test environment each
+                      time?
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The approach</h4>
+                    <p>
+                      Bring dataset management, embedding generation, pipeline
+                      evaluation, benchmarking, and deployment into one
+                      application so trade-offs are visible before a solution
+                      goes live.
+                    </p>
+                  </div>
+                  <a
+                    href="https://github.com/Connel101/vision-bench"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Explore VisionBench on GitHub
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-card reveal" data-related="delivery">
+              <div class="project-number" aria-hidden="true">02</div>
+              <div class="project-main">
+                <div class="project-status">
+                  <span class="status-wip">In development</span>
+                  <span>Browser tool</span>
+                </div>
+                <h3>Caddyfile Builder</h3>
+                <p>
+                  A guided browser-based tool for constructing clear,
+                  copy-ready Caddy server configurations without hand-writing
+                  every directive.
+                </p>
+                <ul class="project-tags" aria-label="Caddyfile Builder capabilities">
+                  <li>Caddy</li>
+                  <li>Configuration generation</li>
+                  <li>Web tooling</li>
+                  <li>Developer experience</li>
+                </ul>
+                <a
+                  class="project-repo-link"
+                  href="https://github.com/Connel101/caddyfile-builder"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+              <details class="project-details">
+                <summary>
+                  <span>View project direction</span>
+                  <span aria-hidden="true">+</span>
+                </summary>
+                <div class="case-study">
+                  <div>
+                    <h4>The question</h4>
+                    <p>
+                      How can Caddy users move from deployment requirements to
+                      a readable configuration without overlooking important
+                      options?
+                    </p>
+                  </div>
+                  <div>
+                    <h4>The direction</h4>
+                    <p>
+                      Guide users through common server choices, translate
+                      those choices into structured directives, and produce a
+                      configuration that is easy to review and copy.
+                    </p>
+                  </div>
+                  <a
+                    href="https://github.com/Connel101/caddyfile-builder"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Follow the project on GitHub
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </details>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section section-paper" id="skills" aria-labelledby="skills-title">
+        <div class="page-shell">
+          <div class="section-topline reveal">
+            <div class="section-index" aria-hidden="true">
+              <span>04</span>
+              <p>Capability</p>
+            </div>
+            <div class="section-heading">
+              <p class="eyebrow eyebrow-dark">Technical toolkit</p>
+              <h2 id="skills-title">Skills organised by the work they enable.</h2>
+            </div>
+          </div>
+
+          <div class="skill-grid">
+            <article class="skill-card reveal" data-related="delivery">
+              <span class="skill-code">SK / 01</span>
+              <h3>Backend</h3>
+              <ul>
+                <li>Python</li>
+                <li>Django</li>
+                <li>Flask</li>
+                <li>REST APIs</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal" data-related="search">
+              <span class="skill-code">SK / 02</span>
+              <h3>Data</h3>
+              <ul>
+                <li>PostgreSQL</li>
+                <li>SQL Server</li>
+                <li>Data pipelines</li>
+                <li>IBM UniVerse</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal" data-related="acquisition intelligence">
+              <span class="skill-code">SK / 03</span>
+              <h3>Automation &amp; AI</h3>
+              <ul>
+                <li>OCR integration</li>
+                <li>Web scraping</li>
+                <li>Computer vision</li>
+                <li>AI classification</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal" data-related="search intelligence">
+              <span class="skill-code">SK / 04</span>
+              <h3>Search</h3>
+              <ul>
+                <li>Elasticsearch</li>
+                <li>Kibana</li>
+                <li>Vector search</li>
+                <li>Indexing pipelines</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal" data-related="delivery">
+              <span class="skill-code">SK / 05</span>
+              <h3>Infrastructure</h3>
+              <ul>
+                <li>Docker</li>
+                <li>Git</li>
+                <li>Windows Server</li>
+                <li>Device management</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal" data-related="acquisition delivery">
+              <span class="skill-code">SK / 06</span>
+              <h3>Low-code &amp; integration</h3>
+              <ul>
+                <li>Bubble</li>
+                <li>UiPath</li>
+                <li>Microsoft Graph</li>
+                <li>Enterprise integration</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="education-section section-paper" id="education" aria-labelledby="education-title">
+        <div class="page-shell education-layout">
+          <div class="section-index reveal" aria-hidden="true">
+            <span>05</span>
+            <p>Learning</p>
+          </div>
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Education &amp; certification</p>
+            <h2 id="education-title">A foundation that keeps expanding.</h2>
+          </div>
+          <div class="credential-stack">
+            <article class="credential reveal">
+              <span class="credential-type">Degree</span>
+              <div>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p>North-West University</p>
+              </div>
+              <span class="credential-mark" aria-hidden="true">ED / 01</span>
+            </article>
+            <article class="credential reveal">
+              <span class="credential-type">Certification</span>
+              <div>
+                <h3>Cyber Security 101</h3>
+                <p>TryHackMe</p>
+              </div>
+              <span class="credential-mark" aria-hidden="true">CERT / 01</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-dark" id="contact" aria-labelledby="contact-title">
+        <div class="page-shell contact-layout">
+          <div class="section-index section-index-dark reveal" aria-hidden="true">
+            <span>06</span>
+            <p>Contact</p>
+          </div>
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact information</p>
+            <h2 id="contact-title">The best place to connect is through my public work.</h2>
+            <p>
+              View my repositories, follow current projects, or get in touch
+              through GitHub.
+            </p>
+          </div>
+          <a
+            class="contact-link reveal"
+            href="https://github.com/Connel101"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>
+              <small>Public profile</small>
+              github.com/Connel101
+            </span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-inner">
+        <p>Designed and built by Connel.</p>
+        <p>Virtual CV / 2026</p>
+        <a href="#home">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+
+    <noscript>
+      <div class="noscript-note">
+        The full CV remains available. Interactive highlighting requires
+        JavaScript.
+      </div>
+    </noscript>
+  </body>
+</html>
